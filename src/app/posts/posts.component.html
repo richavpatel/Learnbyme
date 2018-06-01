@@ -1,0 +1,4 @@
+
+<div class="blog-post" *ngFor="let post1 of posts">
+  <a [routerLink]="['/post', post1.id]">{{ post1.title }}</a>
+</div>
